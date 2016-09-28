@@ -1,15 +1,136 @@
 body{
-	background: url(../images/swirl_pattern.png);
+			background: url(../images/swirl_pattern.png);
 }
 
+header{
+			padding-left: 0px;
+			float:left; 
+			top:0;
+			left: 45px;
 
+			
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  color: white;
+  background-color: rgb(102,102,102);
+  padding: 50px;  
+  margin: 50px;
+  width: 100%;
+  border-top: 5px solid black;
+}
 
 
 
 
 .about-me{
-	background: white;
-	padding:;
-	border:; 
-	margin:;
+			color: white;
+			background: gray;
+			max-width: 790px;
+			padding:30px;
+			border:; 
+			margin:20px;
+			float: left;
+
 }
+
+
+.navigation {
+		  margin: ;
+		  padding: 20px 40px 20px 0;
+		  background: #888;
+		  color: white;
+		  border-bottom: black solid;
+}
+
+.navigation ul {
+		  text-align: right;
+		  list-style: none;
+		  padding: 0;
+		  margin: 0;
+}
+
+.navigation li {
+		  display: inline-block;
+		  margin: 5px;
+		  font-size: 1.2em;
+		  line-height: 30px;
+}
+
+.navigation #border-anchor {
+		  border-right: 1px solid black;
+		  border-left: 1px solid black;
+		  padding: 0 5px;
+}
+
+
+.navigation a {
+		  color: white;
+		  text-decoration: none;
+}
+
+.navigation a, .navigation a:visited {
+  		color: #lightgrey;
+}
+
+.navigation a.selected, .navigation a:hover {
+  		color: black;
+}
+
+.about-me img{
+		max-width: 40%;
+		float: left;
+		padding:10px;
+		border-radius: 50px 10px 50px 10px;
+}
+.connect-main {
+
+		position: relative;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		top: 20px;
+		left:-40px;
+		max-width: 200px;
+		background: #999;
+		float: right;
+} 
+
+.connect-main-2 {
+
+		position:;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		top: 65px;
+		left: 100px;
+		max-width: 200px;
+		max-height: 150;
+		background: #999;
+		float: right;
+} 
+.connect-main img{
+	max-width: 29%;
+}
+.wrap{
+		min-height: calc(100vh -89px);
+}
+.clearfix {
+		overflow: auto;
+}
+.about-main {
+		position: relative;
+		top: 20px;
+		left:-20px;
+		max-width: 1010px;
+}
+.contact{
+	color: white;
+			background: gray;
+			min-width:930px;
+			min-height:450px;
+			padding:20px;
+			margin:20px;
+			float: left;
+}
+
